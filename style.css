@@ -1,0 +1,87 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+header>h1{
+      
+    font-weight: 400;
+}
+
+
+header{
+
+    display:flex ;
+    justify-content: space-between;
+    
+    /* margin =top left bottom right;  humne sirf top and left likha h...top=bottom and left=right*/
+    margin: 0 3rem ;
+}
+
+
+li{
+
+    list-style: none;
+    font-size: 1.5rem;
+   
+}
+
+ul{
+     display: flex;
+     justify-content: space-between;
+  
+     
+   
+}
+
+nav{
+     /* becoz nav me utni hi width hoti h ..jitna aapne content daala h.. */
+    width: 22rem;
+
+    position: relative;
+    top: 1rem;
+}
+
+.showcase_img{
+
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+
+    display: flex;
+    margin: 1.5rem;
+}
+
+.container{
+
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+    
+}
+
+
+footer{
+
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     height: 4rem;
+     font-size: 1.5rem;
+     align-items: center;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+
+     color: red;
+}
